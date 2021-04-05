@@ -1,16 +1,11 @@
 .App {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +19,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-wrapper {
+  width: 600px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.input-wrapper input {
+  width: 100%;
+  outline: none;
+  height: 1cm;
+  border: 0;
+  text-indent: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 0.5cm;
+}
+
+#donald-trump-response::first-letter {
+  margin-left: 40px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+  .input-wrapper {
+    width: 90%;
+    margin: auto;
   }
 }
