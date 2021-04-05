@@ -11,6 +11,7 @@ const Home: React.FC = (): React.ReactElement => {
       <div>
         <Input query={query} setQuery={setQuery} />
       </div>
+      <hr />
       <p id="donald-trump-response">{resp}</p>
     </div>
   );

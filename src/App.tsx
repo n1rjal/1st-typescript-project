@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./App.css";
 import Home from "./pages.tsx/Home";
 
