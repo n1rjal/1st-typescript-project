@@ -7,6 +7,7 @@ const Home: React.FC = (): React.ReactElement => {
   const resp = useDonaldTrump(query);
   return (
     <div className="input-wrapper">
+      <h1>Donald Trump Quote on {query || "something random"}</h1>
       <div>
         <Input query={query} setQuery={setQuery} />
       </div>
